@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.container_card{
+   background: #FAFAFA;
+   padding-top: 50px;
+   position: absolute;
+   width: 100%;
+   top: 50px; 
+}
+
+.card{
+ background: #fff;
+ margin: auto auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ width: 500px;
+ border: 1px solid #ccc;
+ border-radius: 2px;
+}
+
+.icon-delete{
+    display: flex;
+    position: relative;
+    left: 70%;
+    margin-top: 10px;
+
+
+}
+
+
+.card-header{
+    padding: 15px;
+    display: flex;
+}
+
+.profile-info{
+display: inline-block;
+position: relative;
+margin-top: 10px;
+}
+
+
+.profile-img{
+
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     position: relative;
+     top: 3px;
+     margin-right: 5px;
+
+
+}
+.profile-image-following{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+
+
+.content img{
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    box-sizing: border-box;
+
+}
+
+.card-footer{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.likes{
+    color: black;
+    font-size: 13px;
+    padding-bottom: 15px;
+    
+}
+
+.description p{
+ font-size: 14px;
+ margin: 0;
+ padding: 0 0 5px 0;
+}
+.username{
+    margin-right: 5px;
+}
+
+.content-user{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+
+.comments p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+form{
+
+padding-top: 15px;
+}
+.heart{
+    width: 7%;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+hr{
+    padding: 0;
+}
+
+.add-comment{
+    width: 70%;
+    display: inline-block;
+}
+
+.input_field{
+    width: 100%;
+    padding: 5px;
+    font-weight: 16px;
+    border: none;
+    outline: none;
+}
+
+.link-profile{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 25%;
+    
+}
